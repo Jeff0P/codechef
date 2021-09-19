@@ -42,7 +42,7 @@ int main()
             }
         }
 
-        if(flag==1 || b[0]!='.')
+        if(flag==1 && b[0]!='.')
             cout<<"Invalid"<<endl;
         else
             cout<<"Valid"<<endl;
